@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Breakdown
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official URL: 
+https://github.com/JessicaABG/Breakdown
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+Breakdown is an Airtable and React build where the user is able to leave reviews for songs and podcasts.
 
-### `npm start`
+## Wireframes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![imageAlt](https://i.imgur.com/UmiLGEd.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Component Hierarchy
 
-### `npm test`
+![imageAlt](https://i.imgur.com/ah81SSn.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API and Data Sample
 
-### `npm run build`
+https://airtable.com/
+<!-- https://airtable.com/appuTL80FmQaglhTs/api/docs#curl/table:artists:retrieve -->
+Airtable is returning the data for this base as follows:
+<!-- 
+curl https://api.airtable.com/v0/appuTL80FmQaglhTs/Artists/recGfXOc6t84tkJzv \
+  -H "Authorization: Bearer YOUR_API_KEY" -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+EXAMPLE RESPONSE
+{
+    "id": "recGfXOc6t84tkJzv",
+    "fields": {
+        "Name": "The Used"
+    },
+    "createdTime": "2021-09-21T07:05:22.000Z"
+ 
+### MVP/PostMVP
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### MVP
+-nave bar header
+- list of songs from air table to front page
+- link song to review page
+-display artist details on sidebar
+- Use forms to create reviews and update Airtable.
+-review button
+-display reviews on review page
+-contact footer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### PostMVP
+- Delete posts from the feed and airtable.
+-styling
+- bonus: miniplayer
+- lates news for artists
+- Add a search bar
+-ratings bar
 
-### `npm run eject`
+## Project Schedule
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+IN PROGRESS
+| Sept-21-21 | Proposal Approval / Airtable Setup      | Incomplete |
+     | 22  | Component Creation / Get, Set, Delete Data     | Complete |
+     | 23   | CSS Components                                | Complete |
+     | 24   | CSS Components cont'                          | Complete |
+     | 25   | Advanced CSS   /MVP                           | Complete |
+     | 26  | Presentations                                  | Complete |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Timeframes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                  |    H     |      15 min    |               |            |
+| Airtable setup            |    H     |     .5hrs      |               |            |
+| Clickable icons           |    H     |      2hrs      |               |            |
+| Data population pg 1      |    H     |      3hrs      |               |            |
+| Form creation pg 1        |    H     |      2hrs      |               |            |
+| Data creation/update pg 1 |    H     |      3hrs      |               |            |
+| Data deletion pg 3        |    H     |      2hrs      |               |            |
+| Component CSS pg 1        |    H     |      3hrs      |               |            |
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## SWOT Analysis
 
-### Code Splitting
+### Strengths:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I have a good understanding of state and props.
 
-### Analyzing the Bundle Size
+### Weaknesses:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+still challenging to structure functions and apply higher order functions. 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Opportunities:
 
-### Advanced Configuration
+I look forward to solidifying my knowledge in react as it has been a steep learning curve for me. u-u
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Threats:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+While I know how to reference the material , I am a bit delayed so I will be fighting time in completing my project. I may have to sacrifice aesthetics.
