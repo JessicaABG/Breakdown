@@ -54,11 +54,9 @@ EXAMPLE RESPONSE
 
 ## Project Schedule
 
-| Day      | Deliverable                                | Status   |
-| -------- | ------------------------------------------ | -------- |
-
-IN PROGRESS
-| Sept-21-21 | Proposal Approval / Airtable Setup      | Incomplete |
+    | Day      | Deliverable                                | Status   |
+    | -------- | ------------------------------------------ | -------- |
+    | Sept-21-21 | Proposal Approval / Airtable Setup      | Incomplete |
      | 22  | Component Creation / Get, Set, Delete Data     | Complete |
      | 23   | CSS Components                                | Complete |
      | 24   | CSS Components cont'                          | Complete |
