@@ -57,11 +57,11 @@ EXAMPLE RESPONSE
     | Day      | Deliverable                                | Status   |
     | -------- | ------------------------------------------ | -------- |
     | Sept-21-21 | Proposal Approval / Airtable Setup      | Incomplete |
-     | 22  | Component Creation / Get, Set, Delete Data     | Complete |
-     | 23   | CSS Components                                | Complete |
-     | 24   | CSS Components cont'                          | Complete |
-     | 25   | Advanced CSS   /MVP                           | Complete |
-     | 26  | Presentations                                  | Complete |
+     | 22  | Component Creation / Get, Set, Delete Data     | Incomplete |
+     | 23   | CSS Components                                | Inomplete |
+     | 24   | CSS Components cont'                          | Inomplete |
+     | 25   | Advanced CSS   /MVP                           | Incomplete |
+     | 26  | Presentations                                  | Incomplete |
 
 ## Timeframes
 
