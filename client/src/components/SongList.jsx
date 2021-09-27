@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { Route } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import axios from 'axios';
 
 
@@ -43,7 +43,7 @@ return (
     <div>
         {console.log(Songs)}
     {Songs.map((Song)=>(
-        <Route path = "/"><ul key={Song.id}>{Song.fields.Title}</ul></Route>
+        <Link to = {`/songs/${Song.id}`} ><ul key={Song.id}>{Song.fields.Title} { Song.fields.Rating}</ul></Link>
     ))}
     </div>
 );
