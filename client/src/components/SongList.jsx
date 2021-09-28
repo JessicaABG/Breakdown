@@ -40,10 +40,13 @@ if (loading) {
 };
 
 return (
-    <div>
+    <div className='songList'>
         {console.log(Songs)}
     {Songs.map((Song)=>(
-        <Link to = {`/songs/${Song.id}`} ><ul key={Song.id}>{Song.fields.Title} { Song.fields.Rating}</ul></Link>
+        <Link to = {`/songs/${Song.id}`} key={Song.id}>
+            <ul>{Song.fields.Title} { Song.fields.Rating}
+            <li>{ Song.fields.Artist}</li>
+            </ul></Link>
     ))}
     </div>
 );

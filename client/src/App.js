@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className='App'>
     <div> <Navbar /></div>
     {/* <div><ArtistPane/></div> */}{/*ArtistPane IN PRGRESS*/}
     <Switch>

@@ -5,6 +5,7 @@ import axios from 'axios';
 
 
 
+
 const airTableBase = process.env.REACT_APP_AIRTABLE_BASE;
 const airTableKey = process.env.REACT_APP_AIRTABLE_KEY;
 const URL = `https://api.airtable.com/v0/${airTableBase}/Songs`;
@@ -41,9 +42,8 @@ if (loading) {
 
 return (
     <div>
-        {console.log(Songs)}
     {Songs.map((Song)=>(
-        <Link to = {`/songs/${Song.id}`} ><ul key={Song.id}>Song: {Song.fields.Title}, Rating:{Song.fields.Rating}, Comment:{Song.fields.Comment}</ul></Link>
+        <Link to = {`/songs/${Song.id}`} key={Song.id}><ul key={Song.id}> Song: {Song.fields.Title}, Rating:{Song.fields.Rating}, Comment:{Song.fields.Comment}</ul></Link>
     ))}
     </div>
 );
