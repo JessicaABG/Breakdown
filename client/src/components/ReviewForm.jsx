@@ -19,6 +19,7 @@ const config = {
     Authorization: `Bearer ${airTableKey}`,
     },
 };
+
 const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = { Rating: Number(rating), Comment: comment };

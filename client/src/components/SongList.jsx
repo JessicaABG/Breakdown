@@ -45,7 +45,7 @@ return (
     {Songs.map((Song)=>(
         <Link to = {`/songs/${Song.id}`} key={Song.id}>
             <ul>{Song.fields.Title} { Song.fields.Rating}
-            <li>{ Song.fields.Artist}</li>
+            <li>{Song.fields.Artist}</li>
             </ul></Link>
     ))}
     </div>
